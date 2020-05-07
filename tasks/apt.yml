@@ -1,0 +1,3 @@
+---
+- name: apt | install python3
+  raw: apt -y install python3

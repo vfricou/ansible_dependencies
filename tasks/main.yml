@@ -1,0 +1,10 @@
+---
+- name: invoke yum
+  import_tasks: yum.yml
+  tags:
+    - yum
+
+- name: invoke apt
+  import_tasks: apt.yml
+  tags:
+    - apt
